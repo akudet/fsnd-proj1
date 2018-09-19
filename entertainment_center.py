@@ -9,23 +9,23 @@ def favorite_movies():
     movies = []
 
     star_war = media.Movie("Star Wars: The Last Jedi",
-                           "https://i.ytimg.com/vi_webp/fgPqJgZepxM/movieposter.webp",
-                           "https://www.youtube.com/watch?v=fgPqJgZepxM",
+                           "https://i.ytimg.com/vi_webp/fgPqJgZepxM/movieposter.webp",  # NOQA
+                           "https://www.youtube.com/watch?v=fgPqJgZepxM",  # NOQA
                            )
 
     the_day_after_tomoorow = media.Movie("The Day After Tomorrow",
-                                         "https://i.ytimg.com/vi_webp/K_xwj9bHZm4/movieposter.webp",
-                                         "https://www.youtube.com/watch?v=K_xwj9bHZm4",
+                                         "https://i.ytimg.com/vi_webp/K_xwj9bHZm4/movieposter.webp",  # NOQA
+                                         "https://www.youtube.com/watch?v=K_xwj9bHZm4",  # NOQA
                                          )
 
     battleship = media.Movie("Battleship",
-                             "https://i.ytimg.com/vi_webp/qcmYSxnYZV4/movieposter.webp",
-                             "https://www.youtube.com/watch?v=qcmYSxnYZV4",
+                             "https://i.ytimg.com/vi_webp/qcmYSxnYZV4/movieposter.webp",  # NOQA
+                             "https://www.youtube.com/watch?v=qcmYSxnYZV4",  # NOQA
                              )
 
     terminator2 = media.Movie("Terminator 2: Judgment Day",
-                              "https://i.ytimg.com/vi_webp/qlqIVb-UxDE/movieposter.webp",
-                              "https://www.youtube.com/watch?v=qlqIVb-UxDE",
+                              "https://i.ytimg.com/vi_webp/qlqIVb-UxDE/movieposter.webp",  # NOQA
+                              "https://www.youtube.com/watch?v=qlqIVb-UxDE",  # NOQA
                               )
 
     movies.append(star_war)
